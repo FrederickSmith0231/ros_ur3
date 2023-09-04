@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="my_world">
+    <physics type="ode">
+      <gravity>0 0 -9.81</gravity> <!-- Earth gravity -->
+    </physics>
+
+    <!-- Include the hinged_door model -->
+    <include>
+      <uri>model://hinged_door</uri>
+    </include>
+  </world>
+</sdf>
